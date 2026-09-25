@@ -100,12 +100,14 @@
   components:
   - type: Pda
     id: ADTRoboticistIDCard
+    # SD edit start
     penSlot:
       startingItem: RoboticistPen
       priority: -1
       whitelist:
         tags:
         - Write
+    # SD edit end
   - type: PdaBorderColor
     borderColor: "#171716"
     accentVColor: "#d90000"
@@ -138,12 +140,14 @@
   components:
   - type: Pda
     id: ADTPathologistIDCard
+    # SD edit start
     penSlot:
       startingItem: CoronerPen
       priority: -1
       whitelist:
         tags:
         - Write
+    # SD edit end
   - type: PdaBorderColor
     borderColor: "#d7d7d0"
     accentVColor: "#15616b"
@@ -174,38 +178,40 @@
   name: BlueShield PDA
   description: Smells like protection.
   components:
-    - type: Pda
-      id: ADTBlueShieldOfficerIDCard
-      penSlot:
+  - type: Pda
+    id: ADTBlueShieldOfficerIDCard
+    # SD edit start
+    penSlot:
       startingItem: BlueShieldPen
       priority: -1
       whitelist:
         tags:
         - Write
-    - type: PdaBorderColor
-      borderColor: "#424248"
-      accentHColor: "#2851a4"
-      accentVColor: "#e1e1e1"
-    - type: Icon
-      state: pda-blueshield
-    - type: Appearance
-      appearanceDataInit:
-       enum.PdaVisuals.PdaType:
-        !type:String
-        pda-blueshield
-    - type: Sprite
-      sprite: ADT/Objects/Devices/pda.rsi
-      layers:
-      - map: [ "enum.PdaVisualLayers.Base" ]
-        state: "pda-blueshield"
-      - state: "light_overlay"
-        map: [ "enum.PdaVisualLayers.Flashlight" ]
+    # SD edit end
+  - type: PdaBorderColor
+    borderColor: "#424248"
+    accentHColor: "#2851a4"
+    accentVColor: "#e1e1e1"
+  - type: Icon
+    state: pda-blueshield
+  - type: Appearance
+    appearanceDataInit:
+     enum.PdaVisuals.PdaType:
+      !type:String
+      pda-blueshield
+  - type: Sprite
+    sprite: ADT/Objects/Devices/pda.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+      state: "pda-blueshield"
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
         shader: "unshaded"
-        visible: false
-      - state: "id_overlay"
-        map: [ "enum.PdaVisualLayers.IdLight" ]
-        shader: "unshaded"
-        visible: false
+    visible: false
 
 - type: entity
   parent: CentcomPDA
