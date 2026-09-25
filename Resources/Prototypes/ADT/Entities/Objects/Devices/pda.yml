@@ -196,9 +196,9 @@
     state: pda-blueshield
   - type: Appearance
     appearanceDataInit:
-     enum.PdaVisuals.PdaType:
-      !type:String
-      pda-blueshield
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda-blueshield
   - type: Sprite
     sprite: ADT/Objects/Devices/pda.rsi
     layers:
@@ -210,7 +210,7 @@
       visible: false
     - state: "id_overlay"
       map: [ "enum.PdaVisualLayers.IdLight" ]
-        shader: "unshaded"
+      shader: "unshaded"
     visible: false
 
 - type: entity
