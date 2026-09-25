@@ -200,6 +200,12 @@
   components:
   - type: Pda
     id: TechnicalAssistantIDCard
+    penSlot:
+      startingItem: TechnicalAssistantPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -219,6 +225,12 @@
   components:
   - type: Pda
     id: MedicalInternIDCard
+    penSlot:
+      startingItem: InternPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -241,6 +253,12 @@
   components:
   - type: Pda
     id: SecurityCadetIDCard
+    penSlot:
+      startingItem: CadetPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -279,6 +297,12 @@
   components:
   - type: Pda
     id: ServiceWorkerIDCard
+    penSlot:
+      startingItem: ServiceWorkerPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -298,6 +322,12 @@
   components:
   - type: Pda
     id: ChefIDCard
+    penSlot:
+      startingItem: ChiefPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -316,6 +346,12 @@
   components:
   - type: Pda
     id: BotanistIDCard
+    penSlot:
+      startingItem: BotanicPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -336,7 +372,7 @@
   - type: Pda
     id: ClownIDCard
     penSlot:
-      startingItem: CrayonOrange # no pink crayon?!?
+      startingItem: ClownPen # no pink crayon?!? no.
       # ^ Still unacceptable.
       # ^ I would have to concur.
       ejectSound: /Audio/Items/bikehorn.ogg
@@ -383,6 +419,12 @@
   components:
   - type: Pda
     id: VisitorIDCard
+    penSlot:
+      startingItem: ClownPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
@@ -410,7 +452,7 @@
         components:
         - IdCard
     penSlot:
-      startingItem: Pen
+      startingItem: MimePen
       priority: -1
       whitelist:
         tags:
@@ -449,6 +491,12 @@
   components:
   - type: Pda
     id: ChaplainIDCard
+    penSlot:
+      startingItem: PriestPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -466,6 +514,12 @@
   components:
   - type: Pda
     id: VisitorIDCard
+    penSlot:
+      startingItem: PriestPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
@@ -515,6 +569,12 @@
   components:
   - type: Pda
     id: CargoIDCard
+    penSlot:
+      startingItem: CargoPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -533,6 +593,12 @@
   components:
   - type: Pda
     id: SalvageIDCard
+    penSlot:
+      startingItem: SalvagePen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -563,6 +629,12 @@
   components:
   - type: Pda
     id: BartenderIDCard
+    penSlot:
+      startingItem: BartenderPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -582,7 +654,7 @@
   - type: Pda
     id: LibrarianIDCard
     penSlot:
-      startingItem: LuxuryPen
+      startingItem: librarianPen
       priority: -1
       whitelist:
         tags:
@@ -604,6 +676,12 @@
   components:
   - type: Pda
     id: VisitorIDCard
+    penSlot:
+      startingItem: librarianPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
@@ -651,6 +729,12 @@
   components:
   - type: Pda
     id: JanitorIDCard
+    penSlot:
+      startingItem: JanitorPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -745,6 +829,12 @@
   components:
   - type: Pda
     id: EngineeringIDCard
+    penSlot:
+      startingItem: EngineerPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -792,6 +882,12 @@
   components:
   - type: Pda
     id: MedicalIDCard
+    penSlot:
+      startingItem: MedicPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -813,6 +909,12 @@
   components:
   - type: Pda
     id: VisitorIDCard
+    penSlot:
+      startingItem: MedicPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
@@ -825,6 +927,12 @@
   components:
   - type: Pda
     id: ParamedicIDCard
+    penSlot:
+      startingItem: ParamedicPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -844,6 +952,12 @@
   components:
   - type: Pda
     id: ChemistIDCard
+    penSlot:
+      startingItem: ChemicalPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -891,6 +1005,12 @@
   components:
   - type: Pda
     id: ResearchIDCard
+    penSlot:
+      startingItem: SciencePen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -947,6 +1067,12 @@
   components:
   - type: Pda
     id: WardenIDCard
+    penSlot:
+      startingItem: WardenPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -966,6 +1092,12 @@
   components:
   - type: Pda
     id: SecurityIDCard
+    penSlot:
+      startingItem: SecOfficerPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -1062,6 +1194,12 @@
   components:
   - type: Pda
     id: MusicianIDCard
+    penSlot:
+      startingItem: MusicianPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -1084,6 +1222,12 @@
   components:
   - type: Pda
     id: VisitorIDCard
+    penSlot:
+      startingItem: MusicianPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
@@ -1096,6 +1240,12 @@
   components:
   - type: Pda
     id: AtmosIDCard
+    penSlot:
+      startingItem: AtmosPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -1328,6 +1478,12 @@
   components:
   - type: Pda
     id: PsychologistIDCard
+    penSlot:
+      startingItem: PsychologistsPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -1348,7 +1504,7 @@
   - type: Pda
     id: ReporterIDCard
     penSlot:
-      startingItem: LuxuryPen
+      startingItem: ReporterPen
       priority: -1
       whitelist:
         tags:
@@ -1408,6 +1564,12 @@
   components:
   - type: Pda
     id: DetectiveIDCard
+    penSlot:
+      startingItem: DetectivePen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -1436,6 +1598,12 @@
   components:
   - type: Pda
     id: BrigmedicIDCard
+    penSlot:
+      startingItem: BrigmedicPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -1493,6 +1661,12 @@
   components:
   - type: Pda
     id: SeniorEngineerIDCard
+    penSlot:
+      startingItem: SeniorEngineerPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -1512,6 +1686,12 @@
   components:
   - type: Pda
     id: SeniorResearcherIDCard
+    penSlot:
+      startingItem: DocentPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -1532,6 +1712,12 @@
   components:
   - type: Pda
     id: SeniorPhysicianIDCard
+    penSlot:
+      startingItem: MedicKMTPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -1552,6 +1738,12 @@
   components:
   - type: Pda
     id: SeniorOfficerIDCard
+    penSlot:
+      startingItem: SecOfficerPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:
@@ -1571,6 +1763,12 @@
   components:
   - type: Pda
     id: CargoIDCard
+    penSlot:
+      startingItem: CargoPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Appearance
     appearanceDataInit:
      enum.PdaVisuals.PdaType:

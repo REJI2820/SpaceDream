@@ -100,6 +100,12 @@
   components:
   - type: Pda
     id: ADTRoboticistIDCard
+    penSlot:
+      startingItem: RoboticistPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#171716"
     accentVColor: "#d90000"
@@ -132,6 +138,12 @@
   components:
   - type: Pda
     id: ADTPathologistIDCard
+    penSlot:
+      startingItem: CoronerPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#d7d7d0"
     accentVColor: "#15616b"
@@ -164,6 +176,12 @@
   components:
     - type: Pda
       id: ADTBlueShieldOfficerIDCard
+      penSlot:
+      startingItem: BlueShieldPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
     - type: PdaBorderColor
       borderColor: "#424248"
       accentHColor: "#2851a4"
@@ -306,6 +324,12 @@
   components:
   - type: Pda
     id: ADTCorrectionsOfficerIDCard
+    penSlot:
+      startingItem: CorrOffPen
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: PdaBorderColor
     borderColor: "#774705"
   - type: Icon
