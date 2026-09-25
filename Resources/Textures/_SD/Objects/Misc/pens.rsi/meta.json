@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/e1142f20f5e4661cb6845cfcf2dd69f864d67432. pen_centcom is a resprited version of pen_cap by PuroSlavKing (Github). Luxury pen is drawn by Ubaser, upgraded all except inhands by discord:prazat911",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "pen-atmos"
+    },
+    {
+      "name": "pen-bartender"
+    },
+    {
+      "name": "pen-blue_shield"
+    },
+    {
+      "name": "pen-botanic"
+    },
+    {
+      "name": "pen-brigmedic"
+    },
+    {
+      "name": "pen-cargo"
+    },
+    {
+      "name": "pen-chemical"
+    },
+    {
+      "name": "pen-chief"
+    },
+    {
+      "name": "pen-detective"
+    },
+    {
+      "name": "pen-instructor"
+    },
+    {
+      "name": "pen-intern"
+    },
+    {
+      "name": "pen-janitor"
+    },
+    {
+      "name": "pen-musician"
+    },
+    {
+      "name": "pen-priest"
+    },
+    {
+      "name": "pen-reporter"
+    },
+    {
+      "name": "pen-science"
+    },
+    {
+      "name": "pen-sec_officer"
+    },
+    {
+      "name": "pen-warden"
+    },
+    {
+      "name": "pen-cadet"
+    },
+    {
+      "name": "pen-clown"
+    },
+    {
+      "name": "pen-coroner"
+    },
+    {
+      "name": "pen-correctionsofficer"
+    },
+    {
+      "name": "pen-docent"
+    },
+    {
+      "name": "pen-engineer"
+    },
+    {
+      "name": "pen-librarian"
+    },
+    {
+      "name": "pen-medic"
+    },
+    {
+      "name": "pen-medic-kmt"
+    },
+    {
+      "name": "pen-mime"
+    },
+    {
+      "name": "pen-paramedic"
+    },
+    {
+      "name": "pen-psychologists"
+    },
+    {
+      "name": "pen-researchassistant"
+    },
+    {
+      "name": "pen-roboticist"
+    },
+    {
+      "name": "pen-salvage"
+    },
+    {
+      "name": "pen-seniorengineer"
+    },
+    {
+      "name": "pen-serviceworker"
+    },
+    {
+      "name": "pen-technicalassistant"
+    }
+  ]
+}
