@@ -1,0 +1,359 @@
+- type: entity
+  name: atmos pen
+  parent: Pen
+  id: AtmosPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-atmos
+
+- type: entity
+  name: bartender pen
+  parent: Pen
+  id: BartenderPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-bartender
+
+- type: entity
+  name: blue_shield pen
+  parent: Pen
+  id: BlueShieldPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-blue_shield
+
+- type: entity
+  name: botanic pen
+  parent: Pen
+  id: BotanicPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-botanic
+
+- type: entity
+  id: BrigmedicPen
+  parent: Pen
+  name: brigmedic pen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-brigmedic
+
+- type: entity
+  name: cargo pen
+  parent: Pen
+  id: CargoPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-cargo
+
+- type: entity
+  id: ChemicalPen
+  parent: Pen
+  name: chemical pen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-chemical
+
+- type: entity
+  name: chief pen
+  parent: Pen
+  id: ChiefPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-chief
+
+- type: entity
+  name: detective pen
+  parent: Pen
+  id: DetectivePen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-detective
+
+- type: entity
+  name: instructor pen
+  parent: Pen
+  id: InstructorPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-instructor
+
+- type: entity
+  name: intern pen
+  parent: Pen
+  id: InternPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-intern
+
+- type: entity
+  name: janitor pen
+  parent: Pen
+  id: JanitorPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-janitor
+
+- type: entity
+  name: musician pen
+  parent: Pen
+  id: MusicianPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-musician
+
+- type: entity
+  name: priest pen
+  parent: Pen
+  id: PriestPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-priest
+
+- type: entity
+  name: reporter pen
+  parent: Pen
+  id: ReporterPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-reporter
+
+- type: entity
+  name: science pen
+  parent: Pen
+  id: SciencePen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-science
+
+- type: entity
+  name: sec officer pen
+  parent: Pen
+  id: SecOfficerPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-sec_officer
+
+- type: entity
+  name: warden pen
+  parent: Pen
+  id: WardenPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-warden
+
+- type: entity
+  name: cadet pen
+  parent: Pen
+  id: CadetPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-cadet
+
+- type: entity
+  name: clown pen
+  parent: Pen
+  id: ClownPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-clown
+
+- type: entity
+  name: coroner pen
+  parent: Pen
+  id: CoronerPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-coroner
+
+- type: entity
+  name: corroffsec pen
+  parent: Pen
+  id: CorrOffPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-correctionsofficer
+
+- type: entity
+  name: docent pen
+  parent: Pen
+  id: DocentPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-docent
+
+- type: entity
+  name: engineer pen
+  parent: Pen
+  id: EngineerPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-engineer
+
+- type: entity
+  name: librarian pen
+  parent: Pen
+  id: librarianPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-librarian
+
+- type: entity
+  name: medic pen
+  parent: Pen
+  id: MedicPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-medic
+
+- type: entity
+  name: medic kmt pen
+  parent: Pen
+  id: MedicKMTPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-medic-kmt
+
+- type: entity
+  name: mime pen
+  parent: Pen
+  id: MimePen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-mime
+
+- type: entity
+  name: paramedic pen
+  parent: Pen
+  id: ParamedicPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-paramedic
+
+- type: entity
+  name: psychologists pen
+  parent: Pen
+  id: PsychologistsPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-psychologists
+
+- type: entity
+  name: research assistant pen
+  parent: Pen
+  id: ResearchAssistantPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-researchassistant
+
+- type: entity
+  name: roboticist pen
+  parent: Pen
+  id: RoboticistPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-roboticist
+
+- type: entity
+  name: salvage pen
+  parent: Pen
+  id: SalvagePen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-salvage
+
+- type: entity
+  name: senior engineer pen
+  parent: Pen
+  id: SeniorEngineerPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-seniorengineer
+
+- type: entity
+  name: service worker pen
+  parent: Pen
+  id: ServiceWorkerPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-serviceworker
+
+- type: entity
+  name: technical assistant pen
+  parent: Pen
+  id: TechnicalAssistantPen
+  description: A fancy and expensive pen that you only deserve to own if you're qualified to handle vast amounts of paperwork.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Misc/pens.rsi
+    state: pen-technicalassistant
