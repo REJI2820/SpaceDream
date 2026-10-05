@@ -81,7 +81,7 @@
     storedOffset: 1,-1
     shape:
       - 0,0,1,1
-    size:
+    size: Normal
   - type: Tag
     tags:
       - FoodSnack
