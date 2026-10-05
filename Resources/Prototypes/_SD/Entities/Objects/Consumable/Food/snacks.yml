@@ -519,6 +519,17 @@
           Quantity: 10
 
 - type: entity
+  categories: [ HideSpawnMenu ]
+  parent: FoodPacketTrash
+  id: FoodPacketMouseOnStick
+  name: stick from mouse
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Consumable/Food/snacks.rsi
+    state: mouse-on-stick-trash
+  - type: Item
+
+- type: entity
   parent: FoodSnackBase
   id: FoodSnackMothDough
   name: moth in the dough

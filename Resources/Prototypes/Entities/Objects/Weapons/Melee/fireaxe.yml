@@ -48,7 +48,7 @@
     # SD Tweak Start
     speedModifier: 1.5
     pryPowered: true
-    useSound: Audio/Items/crowbar.ogg
+    useSound: /Audio/Items/crowbar.ogg
     # SD Tweak End
   - type: UseDelay
     delay: 1
