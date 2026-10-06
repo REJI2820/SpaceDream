@@ -47,5 +47,5 @@ ent-FoodSnackSobakaChocolateBar = собачка WoofBar
 ent-FoodPacketSobakaChocolateTrash = обёртка от собачки WoofBar
     .desc = Просто мусор.
 
-ent-ResomiXenophobeBox = обед резоми - ксенофобов
+ent-ResomiXenophobeBox = обед резоми-ксенофобов
     .desc = Обед для самых злобных ксенофобов во всей вселенной.
