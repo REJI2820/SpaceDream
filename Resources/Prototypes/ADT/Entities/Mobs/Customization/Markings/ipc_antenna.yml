@@ -152,3 +152,38 @@
   sprites:
     - sprite: ADT/Mobs/Customization/Ipc/ipc_antenna.rsi
       state: ipc_antenna_tvalt
+
+# SD Tweak Start
+- type: marking
+  groupWhitelist: [Ipc]
+  id: IPCAntennaHal
+  bodyPart: Hair
+  sprites:
+    - sprite: _SD/Mobs/Customization/Ipc/ipc_antenna.rsi
+      state: ipc_antenna_hal
+
+- type: marking
+  groupWhitelist: [Ipc]
+  id: IPCAntennaKit
+  bodyPart: Hair
+  sprites:
+    - sprite: _SD/Mobs/Customization/Ipc/ipc_antenna.rsi
+      state: ipc_antenna_kit_static
+
+- type: marking
+  groupWhitelist: [Ipc]
+  id: IPCAntennaOx
+  bodyPart: Hair
+  sprites:
+    - sprite: _SD/Mobs/Customization/Ipc/ipc_antenna.rsi
+      state: ipc_antenna_ox
+
+- type: marking
+  groupWhitelist: [Ipc]
+  id: IPCAntennaSp
+  bodyPart: Hair
+  sprites:
+    - sprite: _SD/Mobs/Customization/Ipc/ipc_antenna.rsi
+      state: ipc_antenna_subspace_primary
+    - sprite: _SD/Mobs/Customization/Ipc/ipc_antenna.rsi
+      state: subspace-2

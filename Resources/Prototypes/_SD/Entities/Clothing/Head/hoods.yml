@@ -1,0 +1,21 @@
+- type: entity
+  parent: ClothingHeadHatHoodWinterBase
+  id: ClothingHeadHatHoodWinterBso
+  categories: [ HideSpawnMenu ]
+  name: капюшон зимней бронекуртки офицера синего щита
+  components:
+  - type: Sprite
+    sprite: _SD/Clothing/Head/Hoods/Coat/bso_winter_hood.rsi
+  - type: Clothing
+    sprite: _SD/Clothing/Head/Hoods/Coat/bso_winter_hood.rsi
+
+- type: entity
+  parent: ClothingHeadHatHoodWinterBase
+  id: SDClothingHeadHatHoodWinterCap
+  categories: [ HideSpawnMenu ]
+  name: капюшон зимней бронекуртки капитана
+  components:
+  - type: Sprite
+    sprite: _SD/Clothing/Head/Hoods/Coat/cap_armored_winter_coat.rsi
+  - type: Clothing
+    sprite: _SD/Clothing/Head/Hoods/Coat/cap_armored_winter_coat.rsi

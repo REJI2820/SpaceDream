@@ -968,6 +968,26 @@
       tags:
       - NukeOpsUplink
 
+# SD Tweak Start
+- type: listing
+  id: UplinkDesynchronizerStealth
+  name: uplink-desynchronizerst-name
+  description: uplink-desynchronizerst-desc
+  productEntity: DeviceDesynchronizerStealth
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 2
+  cost:
+    Telecrystal: 5
+  categories:
+  - UplinkDeception
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
+# SD Tweak End
+
 # Disruption
 # ADT-Tweak: Вместо взламывателя доступов - криптографический модулятор
 # - type: listing
@@ -982,6 +1002,21 @@
 #     Telecrystal: 4
 #   categories:
 #   - UplinkDisruption
+
+# SD Tweak Start
+- type: listing
+  id: UplinkDesynchronizerSyndi
+  name: uplink-desynchronizersy-name
+  description: uplink-desynchronizersy-desc
+  productEntity: DeviceDesynchronizerSyndi
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 7
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkDisruption
+# SD Tweak End
 
 - type: listing
   id: UplinkEmag

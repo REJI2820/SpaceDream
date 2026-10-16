@@ -1,0 +1,7 @@
+- type: xenoArchTrigger
+  id: TriggerTimeStop
+  tip: xenoarch-trigger-tip-time-stop
+  components:
+  - type: XATCompNearby
+    requireComponentWithName: FreezeContacts
+    radius: 1

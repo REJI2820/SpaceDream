@@ -1,0 +1,34 @@
+- type: entity
+  id: DeviceTimeTrigger
+  parent: BaseItem
+  name: timetrigger
+  description: An experimental device that can temporarily stop time.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Devices/timetrigger.rsi
+    state: timetrigger
+  - type: TriggerOnUse
+  - type: SpawnOnTrigger
+    proto: Chronofield
+  - type: UseDelayOnTrigger
+  - type: UseDelayTriggerCondition
+  - type: TriggerOnSignal
+    port: Trigger
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 15
+  - type: DeviceLinkSink
+    ports:
+    - Trigger
+  - type: UseDelay
+    delay: 120
+  - type: InhandVisuals
+    inhandVisuals:
+      LeftHand:
+      - state: inhand-left
+        sprite: _SD/Objects/Devices/timetrigger.rsi
+      RightHand:
+      - state: inhand-right
+        sprite: _SD/Objects/Devices/timetrigger.rsi

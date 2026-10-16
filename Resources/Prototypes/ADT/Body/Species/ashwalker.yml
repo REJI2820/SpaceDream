@@ -240,9 +240,11 @@
   components:
   - type: Loadout
     prototypes: [ ADTAshWalkerGear ]
-  - type: ADTRoleIntro
-    title: adt-role-intro-ash-walker-title
-    text: adt-role-intro-ash-walker-text
+  # SD Tweak Start
+  #- type: ADTRoleIntro
+  #  title: adt-role-intro-ash-walker-title
+  #  text: adt-role-intro-ash-walker-text
+  # SD Tweak End
 
 - type: entity
   parent: AppearanceReptilian

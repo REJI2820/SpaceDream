@@ -1,0 +1,47 @@
+- type: entity
+  id: DeviceDesynchronizerSyndi
+  parent: BaseItem
+  name: desynchronizer syndi
+  description: An experimental device that can temporarily desynchronize the user from spacetime, effectively making them disappear while it's active.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Devices/desynchronizer.rsi
+    state: icon
+  - type: TriggerOnUse
+  - type: PolymorphOnTrigger
+    targetUser: true
+    polymorph: VoidPocketSyndi
+  - type: UseDelay
+    delay: 45
+  - type: InhandVisuals
+    inhandVisuals:
+      LeftHand:
+      - state: inhand-left
+        sprite: _SD/Objects/Devices/desynchronizer.rsi
+      RightHand:
+      - state: inhand-right
+        sprite: _SD/Objects/Devices/desynchronizer.rsi
+
+- type: entity
+  id: DeviceDesynchronizerStealth
+  parent: BaseItem
+  name: desynchronizer stealth
+  description: An experimental device that can temporarily desynchronize the user from spacetime, effectively making them disappear while it's active.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Devices/desynchronizerstealth.rsi
+    state: icon
+  - type: TriggerOnUse
+  - type: PolymorphOnTrigger
+    targetUser: true
+    polymorph: VoidPocketStealth
+  - type: UseDelay
+    delay: 120
+  - type: InhandVisuals
+    inhandVisuals:
+      LeftHand:
+      - state: inhand-left
+        sprite: _SD/Objects/Devices/desynchronizerstealth.rsi
+      RightHand:
+      - state: inhand-right
+        sprite: _SD/Objects/Devices/desynchronizerstealth.rsi

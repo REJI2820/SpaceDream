@@ -64,6 +64,23 @@
   equipment:
     neck: ClothingNeckMantleCap
 
+# SD Loadout Start
+- type: loadout
+  id: SDClothingCapCoat
+  equipment:
+    neck: SDClothingCapCoat
+
+- type: loadout
+  id: SDClothingCapOverprice
+  equipment:
+    neck: SDClothingCapOverprice
+
+- type: loadout
+  id: SDClothingCapVeteran
+  equipment:
+    neck: SDClothingCapVeteran
+# SD Loadout End
+
 # Back
 - type: loadout
   id: CaptainBackpack
@@ -90,3 +107,10 @@
   id: CaptainWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCap
+
+# SD Tweak Start
+- type: loadout
+  id: SDClothingOuterWinterCap
+  equipment:
+    outerClothing: SDClothingOuterWinterCap
+# SD Tweak End

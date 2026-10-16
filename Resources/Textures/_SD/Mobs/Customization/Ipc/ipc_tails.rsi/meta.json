@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-4.0",
+    "copyright": "thedusteffin for SD",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "xenomorph-first",
+            "directions": 4
+        },
+        {
+            "name": "xenomorph-second",
+            "directions": 4
+        },
+        {
+            "name": "xenomorph-third",
+            "directions": 4
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+- type: entity
+  parent: ADTModsuitModBase
+  id: ModsuitModSpeedboot
+  name: MOD speedboot module
+  description: Like classic speed boots. Maybe little slower.
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Specific/Modsuits/modules.rsi
+    state: speedboots
+  - type: ModSuitMod
+    energyUsing: 0.5
+    complexity: 3
+    components:
+      shoes:
+      - type: ToggleClothing
+        action: ActionToggleSpeedBoots
+        mustEquip: false
+      - type: ClothingSpeedModifier
+        walkModifier: 1.4
+        sprintModifier: 1.3
+      - type: ItemToggle
+        onUse: false

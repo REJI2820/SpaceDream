@@ -1,0 +1,64 @@
+- type: entity
+  parent: BaseItem
+  id: TimerTriggerUsefull
+  name: управляемый таймер-триггер
+  description: Этот триггер создан для работы вне устройств. Идеально подходит для всевозможных связок сигналов!
+  components:
+  - type: Sprite
+    sprite: _SD/Objects/Devices/timer.rsi
+    state: timer
+  - type: Item
+    size: Tiny
+  - type: StaticPrice
+    price: 40
+  - type: Anchorable
+  - type: TriggerOnUse
+  - type: TriggerOnSignal
+  - type: TimerTrigger
+    keysIn:
+    - trigger
+    delay: 10
+    delayOptions: [1, 3, 5, 10, 15, 25, 30, 35, 45, 50, 60]
+    initialBeepDelay: 0
+    beepSound: /Audio/Machines/Nuke/general_beep.ogg
+  - type: SignalOnTrigger
+    keysIn:
+    - timer
+    port: Trigger
+  - type: DeviceLinkSink
+    ports:
+    - Trigger
+  - type: DeviceLinkSource
+    ports:
+    - Trigger
+
+- type: entity
+  parent: BaseItem
+  id: VoiceTriggerUsefull
+  name: управляемый голосовой триггер
+  description: Этот триггер создан для работы вне устройств. Идеально подходит для всевозможных связок сигналов!
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: _SD/Objects/Devices/voice.rsi
+    state: voice
+  - type: StaticPrice
+    price: 40
+  - type: Anchorable
+  - type: Tag
+    tags:
+    - VoiceTrigger
+  - type: DeviceLinkSource
+    ports:
+    - Trigger
+  - type: SignalOnTrigger
+    port: Trigger
+    keysIn:
+    - trigger
+  - type: TriggerOnVoice
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: BasicDevice
+  - type: WirelessNetworkConnection
+    range: 15

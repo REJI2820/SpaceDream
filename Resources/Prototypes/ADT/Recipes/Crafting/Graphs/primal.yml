@@ -102,8 +102,10 @@
       steps:
       - material: Bones
         amount: 2
-      - material: ADTSinew
-        amount: 2
+      # SD Tweak Start
+      # - material: ADTSinew
+      #   amount: 2
+      # SD Tweak Start
       - material: GoliathHide
         amount: 1
         doAfter: 5

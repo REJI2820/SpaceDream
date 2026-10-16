@@ -341,6 +341,7 @@
   cost: 15000
   recipeUnlocks:
   - ClothingShoesBootsSpeed
+  - ModsuitModSpeedboot
   position: 2,3
   requiredTech:
   - BluespaceCargoTransport

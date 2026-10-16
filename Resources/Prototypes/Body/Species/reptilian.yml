@@ -1,10 +1,10 @@
 ﻿- type: markingsGroup
   parent: Undergarments
   id: Reptilian
-  onlyGroupWhitelisted: true
+  onlyGroupWhitelisted: false # SD Tweak
   limits:
     enum.HumanoidVisualLayers.Hair:
-      limit: 0
+      limit: 3 # SD Tweak
       required: false
     enum.HumanoidVisualLayers.FacialHair:
       limit: 0

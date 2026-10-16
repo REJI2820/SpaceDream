@@ -27,6 +27,7 @@
     TriggerThrow: 1
     TriggerDeath: 1
     TriggerMagnet: 1
+    TriggerTimeStop: 0.25  # SD Tweak
 
 - type: xenoArchTrigger
   id: TriggerMusic

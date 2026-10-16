@@ -1,0 +1,23 @@
+- type: polymorph
+  id: VoidPocketSyndi
+  configuration:
+    entity: DesynchronizedPocketSyndi
+    transferName: false
+    inventory: None
+    forced: false
+    revertOnDeath: true
+    allowRepeatedMorphs: false
+    polymorphSound: /Audio/_SD/Effects/za-warudo.ogg
+    exitPolymorphSound: /Audio/Magic/ethereal_exit.ogg
+    duration: 3
+    effectProto: ChronofieldLow
+
+- type: polymorph
+  id: VoidPocketStealth
+  configuration:
+    entity: DesynchronizedPocket
+    transferName: false
+    inventory: None
+    forced: false
+    allowRepeatedMorphs: false
+    duration: 60

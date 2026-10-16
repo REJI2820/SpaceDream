@@ -140,10 +140,11 @@
     containers:
       entity_storage: !type:AllSelector
         children:
-        - id: ADTModsuitModAntigrav
+        - id: ADTModsuitModUraniumStabilizer # SD Tweak
         - id: ADTModsuitModNightVision
         - id: ADTModsuitModJump
         - id: ADTModsuitModDrill
+        - id: ModsuitModSpeedboot # SD Tweak
 - type: entity
   id: ADTCrateNecropolisSuperSynthesizer
   parent: ADTCrateNecropolis

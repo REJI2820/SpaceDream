@@ -1,0 +1,52 @@
+- type: loadoutEffectGroup
+  id: SDClothingCaptainShoulder75hour
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 270000 #75 часов
+
+- type: loadoutEffectGroup
+  id: SDClothingCaptainShoulder100hour
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 360000 #100 часов
+
+- type: loadoutEffectGroup
+  id: SDClothingCaptainShoulder150hour
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 540000 #150 часов
+
+# Shoulder
+
+- type: loadout
+  id: SDClothingCapCoatC
+  effects:
+  - !type:GroupLoadoutEffect
+   proto: SDClothingCaptainShoulder75hour
+  equipment:
+   neck: SDClothingCapCoat
+
+- type: loadout
+  id: SDClothingCapOverpriceC
+  effects:
+  - !type:GroupLoadoutEffect
+   proto: SDClothingCaptainShoulder100hour
+  equipment:
+   neck: SDClothingCapOverprice
+
+- type: loadout
+  id: SDClothingCapVeteranC
+  effects:
+  - !type:GroupLoadoutEffect
+   proto: SDClothingCaptainShoulder150hour
+  equipment:
+   neck: SDClothingCapVeteran

@@ -1,7 +1,7 @@
 - type: latheRecipe
   id: ClothingEyesNightVisionRecipe
   result: ClothingEyesNightVision
-  completetime: 10
+  completetime: 5
   materials:
     Steel: 1500
     Glass: 1000
@@ -11,10 +11,31 @@
 - type: latheRecipe
   id: ClothingEyesGlassesThermalRecipe
   result: ClothingEyesGlassesThermal
-  completetime: 10
+  completetime: 5
   materials:
     Steel: 1500
     Glass: 1000
     Copper: 500
     Gold: 500
 
+- type: latheRecipe
+  id: DeviceTimeTriggerRecipe
+  result: DeviceTimeTrigger
+  completetime: 10
+  materials:
+    Steel: 1000
+    Glass: 500
+    Uranium: 300
+    ADTBScrystal: 200
+    Copper: 300
+
+- type: latheRecipe
+  id: ModsuitModSpeedboot
+  result: ModsuitModSpeedboot
+  completetime: 7
+  materials:
+    Steel: 1500
+    Plastic: 1000
+    Gold: 500
+    Copper: 1000
+    ADTBScrystal: 100

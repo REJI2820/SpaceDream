@@ -43,3 +43,17 @@
       state: ipc_tail_fork_second
     - sprite: ADT/Mobs/Customization/Ipc/ipc_tails.rsi
       state: ipc_tail_fork_third
+
+# SD Tweak Start
+- type: marking
+  groupWhitelist: [Ipc]
+  id: SDIPCTailXeno
+  bodyPart: Tail
+  sprites:
+    - sprite: _SD/Mobs/Customization/Ipc/ipc_tails.rsi
+      state: xenomorph-first
+    - sprite: _SD/Mobs/Customization/Ipc/ipc_tails.rsi
+      state: xenomorph-second
+    - sprite: _SD/Mobs/Customization/Ipc/ipc_tails.rsi
+      state: xenomorph-third
+# SD Tweak End

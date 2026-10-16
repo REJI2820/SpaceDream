@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-4.0",
+    "copyright": "EffinXexe",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "halfbody_spots",
+            "directions": 4
+        },
+        {
+            "name": "hero_stripes",
+            "directions": 4
+        },
+        {
+            "name": "love_stripes",
+            "directions": 4
+        },
+        {
+            "name": "muzzle_spot",
+            "directions": 4
+        },
+        {
+            "name": "сascade",
+            "directions": 4
+        }
+    ]
+}

@@ -160,7 +160,7 @@
 - type: latheRecipe
   id: ClothingShoesBootsSpeed
   result: ClothingShoesBootsSpeed
-  completetime: 15  # SD Tweak
+  completetime: 10  # SD Tweak
   materials:
     Steel: 1500
     Plastic: 1000

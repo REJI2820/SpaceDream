@@ -233,12 +233,12 @@
   id: AnomalyVesselCircuitboard
   result: AnomalyVesselCircuitboard
 
-# ADT-Tweak-Start
-# - type: latheRecipe
-#   parent: [ BaseGoldCircuitboardRecipe, BaseResearchMachineRecipeCategory ]
-#   id: AnomalyVesselExperimentalCircuitboard
-#   result: AnomalyVesselExperimentalCircuitboard
-# ADT-Tweak-End
+# SD Tweak Start
+- type: latheRecipe
+  parent: [ BaseGoldCircuitboardRecipe, BaseResearchMachineRecipeCategory ]
+  id: AnomalyVesselExperimentalCircuitboard
+  result: AnomalyVesselExperimentalCircuitboard
+# SD Tweak End
 
 - type: latheRecipe
   parent: [ BaseSilverCircuitboardRecipe, BaseResearchMachineRecipeCategory ]
@@ -261,7 +261,7 @@
   parent: [BaseCircuitboardRecipe]
   id: SmartFridgeCircuitboard
   result: SmartFridgeCircuitboard
-  
+
 # Bar
 - type: latheRecipe
   parent: [ BaseCircuitboardRecipe, BaseServiceMachineRecipeCategory ]

@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "EffinXexe",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "iron"
+      },
+      {
+        "name": "iron_two"
+      },
+      {
+        "name": "iron_shot"
+      },
+      {
+        "name": "iron_two_shot"
+      },
+      {
+        "name": "iron_two_side"
+      },
+      {
+        "name": "iron_two_shot_side"
+      }
+    ]
+  }
