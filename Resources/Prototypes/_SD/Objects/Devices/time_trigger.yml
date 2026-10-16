@@ -24,11 +24,3 @@
     - Trigger
   - type: UseDelay
     delay: 120
-  - type: InhandVisuals
-    inhandVisuals:
-      LeftHand:
-      - state: inhand-left
-        sprite: _SD/Objects/Devices/timetrigger.rsi
-      RightHand:
-      - state: inhand-right
-        sprite: _SD/Objects/Devices/timetrigger.rsi

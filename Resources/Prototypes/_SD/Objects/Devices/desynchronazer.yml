@@ -13,14 +13,6 @@
     polymorph: VoidPocketSyndi
   - type: UseDelay
     delay: 45
-  - type: InhandVisuals
-    inhandVisuals:
-      LeftHand:
-      - state: inhand-left
-        sprite: _SD/Objects/Devices/desynchronizer.rsi
-      RightHand:
-      - state: inhand-right
-        sprite: _SD/Objects/Devices/desynchronizer.rsi
 
 - type: entity
   id: DeviceDesynchronizerStealth
@@ -37,11 +29,3 @@
     polymorph: VoidPocketStealth
   - type: UseDelay
     delay: 120
-  - type: InhandVisuals
-    inhandVisuals:
-      LeftHand:
-      - state: inhand-left
-        sprite: _SD/Objects/Devices/desynchronizerstealth.rsi
-      RightHand:
-      - state: inhand-right
-        sprite: _SD/Objects/Devices/desynchronizerstealth.rsi
