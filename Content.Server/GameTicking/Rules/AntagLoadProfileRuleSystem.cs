@@ -33,11 +33,6 @@ public sealed class AntagLoadProfileRuleSystem : GameRuleSystem<AntagLoadProfile
             ? _prefs.GetPreferences(args.Session.UserId).SelectedCharacter as HumanoidCharacterProfile
             : HumanoidCharacterProfile.RandomWithSpecies();
 
-        if (profile?.Species == "ADTAshWalker")
-        {
-            return;
-        }
-
         if (profile?.Species is not { } speciesId || !_proto.Resolve(speciesId, out var species))
         {
             species = _proto.Index<SpeciesPrototype>(HumanoidCharacterProfile.DefaultSpecies);
