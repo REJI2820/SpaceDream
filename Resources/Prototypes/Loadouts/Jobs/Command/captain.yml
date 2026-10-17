@@ -90,10 +90,3 @@
   id: CaptainWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCap
-
-# SD Tweak Start
-- type: loadout
-  id: SDClothingOuterWinterCap
-  equipment:
-    outerClothing: SDClothingOuterWinterCap
-# SD Tweak End
