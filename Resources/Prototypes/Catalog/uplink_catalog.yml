@@ -983,21 +983,6 @@
 #   categories:
 #   - UplinkDisruption
 
-# SD Tweak Start
-- type: listing
-  id: UplinkDesynchronizerSyndi
-  name: uplink-desynchronizersy-name
-  description: uplink-desynchronizersy-desc
-  productEntity: DeviceDesynchronizerSyndi
-  discountCategory: veryRareDiscounts
-  discountDownTo:
-    Telecrystal: 7
-  cost:
-    Telecrystal: 10
-  categories:
-  - UplinkDisruption
-# SD Tweak End
-
 - type: listing
   id: UplinkEmag
   name: uplink-emag-name
