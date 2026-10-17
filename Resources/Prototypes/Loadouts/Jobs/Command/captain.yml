@@ -64,23 +64,6 @@
   equipment:
     neck: ClothingNeckMantleCap
 
-# SD Loadout Start
-- type: loadout
-  id: SDClothingCapCoat
-  equipment:
-    neck: SDClothingCapCoat
-
-- type: loadout
-  id: SDClothingCapOverprice
-  equipment:
-    neck: SDClothingCapOverprice
-
-- type: loadout
-  id: SDClothingCapVeteran
-  equipment:
-    neck: SDClothingCapVeteran
-# SD Loadout End
-
 # Back
 - type: loadout
   id: CaptainBackpack

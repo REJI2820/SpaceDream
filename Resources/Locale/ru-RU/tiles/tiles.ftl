@@ -148,7 +148,3 @@ tiles-white-marble = белая мраморная плитка
 tiles-dark-marble = чёрная мраморная плитка
 tiles-plasma-marble = плазменная мраморная плитка
 tiles-uranium-marble = урановая мраморная плитка
-tiles-iron-base-floor = железная плитка шаттла
-tiles-shoot-iron-base-floor = железная плитка шаттла после выстрелов
-tiles-iron-two-floor = вторая железная плитка шаттла после выстрелов
-tiles-shoot-iron-two-floor = вторая железная плитка шаттла после выстрелов

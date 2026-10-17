@@ -968,26 +968,6 @@
       tags:
       - NukeOpsUplink
 
-# SD Tweak Start
-- type: listing
-  id: UplinkDesynchronizerStealth
-  name: uplink-desynchronizerst-name
-  description: uplink-desynchronizerst-desc
-  productEntity: DeviceDesynchronizerStealth
-  discountCategory: veryRareDiscounts
-  discountDownTo:
-    Telecrystal: 2
-  cost:
-    Telecrystal: 5
-  categories:
-  - UplinkDeception
-  conditions:
-  - !type:StoreWhitelistCondition
-    blacklist:
-      tags:
-      - NukeOpsUplink
-# SD Tweak End
-
 # Disruption
 # ADT-Tweak: Вместо взламывателя доступов - криптографический модулятор
 # - type: listing

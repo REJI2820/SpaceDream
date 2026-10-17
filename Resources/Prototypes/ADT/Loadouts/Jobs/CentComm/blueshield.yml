@@ -90,13 +90,6 @@
   equipment:
     outerClothing: ADTClothingBlueshieldArmor
 
-# SD Tweak Start
-- type: loadout
-  id: ClothingOuterWinterBso
-  equipment:
-    outerClothing: ClothingOuterWinterBso
-# SD Tweak End
-
 # Shoes
 
 - type: loadout

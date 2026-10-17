@@ -1,0 +1,34 @@
+# Deception
+
+- type: listing
+  id: UplinkDesynchronizerStealth
+  name: uplink-desynchronizerst-name
+  description: uplink-desynchronizerst-desc
+  productEntity: DeviceDesynchronizerStealth
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 2
+  cost:
+    Telecrystal: 5
+  categories:
+  - UplinkDeception
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
+
+# Disruption
+
+- type: listing
+  id: UplinkDesynchronizerSyndi
+  name: uplink-desynchronizersy-name
+  description: uplink-desynchronizersy-desc
+  productEntity: DeviceDesynchronizerSyndi
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 7
+  cost:
+    Telecrystal: 10
+  categories:
+  - UplinkDisruption

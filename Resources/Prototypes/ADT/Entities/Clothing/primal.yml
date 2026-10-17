@@ -59,8 +59,10 @@
   - type: Armor
     modifiers:
       coefficients:
+        # SD tweak start
         Blunt: 0.75
         Slash: 0.75
+        # SD tweak end
         Piercing: 0.9
         Heat: 0.5
   - type: TemperatureProtection
