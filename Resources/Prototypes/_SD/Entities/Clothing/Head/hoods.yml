@@ -16,6 +16,6 @@
   name: капюшон зимней бронекуртки капитана
   components:
   - type: Sprite
-    sprite: _SD/Clothing/OuterClothing/WinterCoats/cap_armored_winter_coat.rsi
+    sprite: _SD/Clothing/Head/Hoods/Coat/cap_winter_hood.rsi
   - type: Clothing
-    sprite: _SD/Clothing/OuterClothing/WinterCoats/cap_armored_winter_coat.rsi
+    sprite: _SD/Clothing/Head/Hoods/Coat/cap_winter_hood.rsi
