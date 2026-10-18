@@ -187,6 +187,9 @@
   - ADTClothingCaptainShoulderNeck # ADT Loadout
   - CaptainMantle
   - ADTClothingAdmiralShoulder # ADT Loadout
+  - SDClothingCapCoatC # SD Loadout
+  - SDClothingCapOverpriceC # SD Loadout
+  - SDClothingCapVeteranC # SD Loadout
 
 - type: loadoutGroup
   id: CaptainBackpack
@@ -203,6 +206,7 @@
   - CaptainOuterClothing
   - CaptainWintercoat
   - ADTArmorVestHidden # ADT Loadout
+  - SDClothingOuterWinterCap # SD Loadout
 
 #- type: loadoutGroup
 #  id: CaptainJobTrinkets

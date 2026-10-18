@@ -241,6 +241,10 @@
     - id: ADTToyBlasterGunGreen
       prob: 0.008
     #ADT tweak end
+    # SD Tweak Start
+    - id: SDClothingTransPrime
+      prob: 0.01
+    # SD Tweak End
 
 - type: entityTable
   id: MaintenancePlushies
@@ -254,6 +258,13 @@
     - id: PlushieLizardJobPassenger
     - id: PlushieLizardJobReporter
     - id: PlushieLizardJobZookeeper
+    # SD Tweak Start
+    - id: PlushieResomiBlue
+    - id: PlushieResomiGreen
+    - id: PlushieResomiRed
+    - id: PlushieResomiPurple
+    - id: PlushieResomiYellow
+    # SD Tweak End
 
 - type: entity
   id: ClosetMaintenanceFilledRandom

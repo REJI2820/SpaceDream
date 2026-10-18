@@ -577,7 +577,7 @@
   description: It's a slimming black with reinforced seams; great for industrial work.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/roboticist.rsi
+    sprite: _SD/Clothing/Uniform/Jumpsuit/roboticist.rsi # SD Tweak
 
 - type: entity
   parent: [ClothingUniformBase, BaseSecurityContraband, ClothingUniformFoldableBase]

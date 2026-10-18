@@ -63,11 +63,10 @@
   parent: BasePowerCellRecipe
   id: PowerCellMicroreactor
   result: PowerCellMicroreactorPrinted
-  completetime: 20  #SD Tweak
+  completetime: 15  #SD Tweak
   materials:
 # SD Tweak Start
     Steel: 1500
-    PlasmaGlass: 500
     Copper: 1000
     Gold: 500
     Zinc: 1000

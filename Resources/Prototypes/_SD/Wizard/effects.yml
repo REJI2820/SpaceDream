@@ -1,0 +1,10 @@
+- type: entity
+  parent: Chronofield
+  id: ChronofieldLow
+  name: chronofield
+  description: ZA WARUDO!
+  components:
+  - type: TimedDespawn
+    lifetime: 3
+  - type: Sprite
+    color: "#FF000080"

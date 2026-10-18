@@ -1,0 +1,39 @@
+- type: marking
+  id: DemonChestHalfBody
+  bodyPart: Special
+  groupWhitelist: [Demon]
+  sprites:
+  - sprite: _SD/Mobs/Customization/Demon/custom.rsi
+    state: halfbody_spots
+
+- type: marking
+  id: DemonChestHero
+  bodyPart: Special
+  groupWhitelist: [Demon]
+  sprites:
+  - sprite: _SD/Mobs/Customization/Demon/custom.rsi
+    state: hero_stripes
+
+- type: marking
+  id: DemonChestLove
+  bodyPart: Special
+  groupWhitelist: [Demon]
+  sprites:
+  - sprite: _SD/Mobs/Customization/Demon/custom.rsi
+    state: love_stripes
+
+- type: marking
+  id: DemonChestMuzzle
+  bodyPart: Special
+  groupWhitelist: [Demon]
+  sprites:
+  - sprite: _SD/Mobs/Customization/Demon/custom.rsi
+    state: muzzle_spot
+
+- type: marking
+  id: DemonChestCascade
+  bodyPart: Special
+  groupWhitelist: [Demon]
+  sprites:
+  - sprite: _SD/Mobs/Customization/Demon/custom.rsi
+    state: сascade

@@ -1,0 +1,7 @@
+- type: entity
+  parent: DesynchronizedPocket
+  id: DesynchronizedPocketSyndi
+  components:
+  - type: MovementSpeedModifier
+    baseSprintSpeed: 2
+    baseWalkSpeed: 2

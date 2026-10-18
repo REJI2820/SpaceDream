@@ -25,13 +25,14 @@
   # - DeviceQuantumSpinInverter # ADT-Tweak
   - DeviceDesynchronizer
   # - ClothingBackpackHarmpack # ADT-Tweak
-
+  - DeviceTimeTriggerRecipe # SD Tweak
 - type: latheRecipePack
   id: ScienceClothing
   recipes:
   - ClothingShoesBootsMagSci
   # - ClothingShoesBootsMoon # ADT-Tweak - убираем луноходы
   - ClothingShoesBootsSpeed #SD tweak
+  - ModsuitModSpeedboot # SD Tweak
   # - ADTClothingOuterExoskeletonBase #SD tweak
   - ClothingBackpackHolding
   - ClothingBackpackSatchelHolding
@@ -100,7 +101,7 @@
   - PowerCageRechargerCircuitboard
   - AnalysisComputerCircuitboard
   - AnomalyVesselCircuitboard
-  # - AnomalyVesselExperimentalCircuitboard # ADT-Tweak
+  - AnomalyVesselExperimentalCircuitboard # SD Tweak
   - AnomalySynchronizerCircuitboard
   - ADTBotanicalSeedDNAManipulatorCircuitboard #ADT-Tweak
   - APECircuitboard

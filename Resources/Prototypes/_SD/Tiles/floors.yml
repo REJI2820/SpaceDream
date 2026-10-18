@@ -1,0 +1,51 @@
+- type: tile
+  id: FloorShuttleIronBase
+  parent: BaseStationTile
+  name: tiles-iron-base-floor
+  sprite: /Textures/_SD/Objects/Tiles/metal.rsi/iron.png
+  footstepSounds:
+    collection: FootstepFloor
+
+- type: tile
+  id: FloorShuttleIronShot
+  parent: BaseStationTile
+  name: tiles-shoot-iron-base-floor
+  sprite: /Textures/_SD/Objects/Tiles/metal.rsi/iron_shot.png
+  footstepSounds:
+    collection: FootstepFloor
+
+- type: tile
+  id: FloorShuttleIronTwo
+  parent: BaseStationTile
+  name: tiles-iron-two-floor
+  sprite: /Textures/_SD/Objects/Tiles/metal.rsi/iron_two.png
+  footstepSounds:
+    collection: FootstepFloor
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorShuttleIronTwoShot
+  parent: BaseStationTile
+  name: tiles-shoot-iron-two-floor
+  sprite: /Textures/_SD/Objects/Tiles/metal.rsi/iron_two_shot.png
+  footstepSounds:
+    collection: FootstepFloor
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorShuttleIronTwoSide
+  parent: BaseStationTile
+  name: tiles-iron-two-floor
+  sprite: /Textures/_SD/Objects/Tiles/metal.rsi/iron_two_side.png
+  footstepSounds:
+    collection: FootstepFloor
+  allowRotationMirror: true
+
+- type: tile
+  id: FloorShuttleIronTwoShotSide
+  parent: BaseStationTile
+  name: tiles-shoot-iron-two-floor
+  sprite: /Textures/_SD/Objects/Tiles/metal.rsi/iron_two_shot_side.png
+  footstepSounds:
+    collection: FootstepFloor
+  allowRotationMirror: true

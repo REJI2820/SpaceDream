@@ -3,7 +3,7 @@
   id: Demon
   limits:
     enum.HumanoidVisualLayers.Special:
-      limit: 1
+      limit: 3 # SD Tweak
       required: false
     enum.HumanoidVisualLayers.Tail:
       limit: 1
@@ -67,7 +67,7 @@
       limit: 2
       required: false
     enum.HumanoidVisualLayers.Overlay:
-      limit: 1
+      limit: 2 # SD Tweak
       required: false
 
 - type: entity

@@ -1,0 +1,11 @@
+- type: marking
+  groupWhitelist: [Ipc]
+  id: SDIPCTailXeno
+  bodyPart: Tail
+  sprites:
+    - sprite: _SD/Mobs/Customization/Ipc/ipc_tails.rsi
+      state: xenomorph-first
+    - sprite: _SD/Mobs/Customization/Ipc/ipc_tails.rsi
+      state: xenomorph-second
+    - sprite: _SD/Mobs/Customization/Ipc/ipc_tails.rsi
+      state: xenomorph-third

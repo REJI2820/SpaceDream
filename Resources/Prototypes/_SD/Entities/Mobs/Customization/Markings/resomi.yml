@@ -1,0 +1,47 @@
+- type: marking
+  id: ResomiEarsOne
+  bodyPart: Hair
+  groupWhitelist: [Resomi]
+  sprites:
+  - sprite: _SD/Mobs/Customization/Resomi/resomi_parts.rsi
+    state: ears2
+
+- type: marking
+  id: ResomiEarsTwo
+  bodyPart: Hair
+  groupWhitelist: [Resomi]
+  sprites:
+  - sprite: _SD/Mobs/Customization/Resomi/resomi_parts.rsi
+    state: ears3
+
+- type: marking
+  id: ResomiEarsThree
+  bodyPart: Hair
+  groupWhitelist: [Resomi]
+  sprites:
+  - sprite: _SD/Mobs/Customization/Resomi/resomi_parts.rsi
+    state: ears4
+
+- type: marking
+  id: ResomiEarsFour
+  bodyPart: Hair
+  groupWhitelist: [Resomi]
+  sprites:
+  - sprite: _SD/Mobs/Customization/Resomi/resomi_parts.rsi
+    state: ears5
+
+- type: marking
+  id: ResomiEarsFive
+  bodyPart: Hair
+  groupWhitelist: [Resomi]
+  sprites:
+  - sprite: _SD/Mobs/Customization/Resomi/resomi_parts.rsi
+    state: ears6
+
+- type: marking
+  id: ResomiEarsSix
+  bodyPart: Hair
+  groupWhitelist: [Resomi]
+  sprites:
+  - sprite: _SD/Mobs/Customization/Resomi/resomi_parts.rsi
+    state: ears7

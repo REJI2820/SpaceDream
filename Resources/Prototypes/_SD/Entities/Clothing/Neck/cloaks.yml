@@ -1,0 +1,35 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: SDClothingCapCoat
+  name: накидка-плащ капитана
+  description: Для капитанов, которые знают толк в стиле.
+  components:
+  - type: Sprite
+    sprite: _SD/Clothing/Neck/Cloak/cap_cloak.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: SDClothingCapOverprice
+  name: дорогой плащ капитана
+  description: Этот плащ стоит больше всей станции.
+  components:
+  - type: Sprite
+    sprite: _SD/Clothing/Neck/Cloak/cap.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: SDClothingCapVeteran
+  name: плащ капитана-ветерана
+  description: Чистая аура.
+  components:
+  - type: Sprite
+    sprite: _SD/Clothing/Neck/Cloak/veterancap.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: SDClothingTransPrime
+  name: плащ прайм
+  description: Истинная гордость.
+  components:
+  - type: Sprite
+    sprite: _SD/Clothing/Neck/Cloak/trans.rsi

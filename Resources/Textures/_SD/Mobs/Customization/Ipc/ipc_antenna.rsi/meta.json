@@ -1,0 +1,31 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-4.0",
+    "copyright": "EffinXexe",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "ipc_antenna_hal",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_kit_static",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_ox",
+            "directions": 4
+        },
+        {
+            "name": "ipc_antenna_subspace_primary",
+            "directions": 4
+        },
+        {
+            "name": "subspace-2",
+            "directions": 4
+        }
+    ]
+}

@@ -132,7 +132,7 @@
   recipeUnlocks:
   - WeaponPistolCHIMP
   - AnomalySynchronizerCircuitboard
-  # - AnomalyVesselExperimentalCircuitboard # ADT-Tweak
+  - AnomalyVesselExperimentalCircuitboard # SD Tweak
   technologyPrerequisites:
   - BasicAnomalousResearch
   # ADT Research Console Rework start
@@ -209,6 +209,7 @@
   cost: 10000
   recipeUnlocks:
   - DeviceDesynchronizer
+  - DeviceTimeTriggerRecipe
   requiredTech:
   - ADTBluespaceMining
   # ADT Research Console Rework start

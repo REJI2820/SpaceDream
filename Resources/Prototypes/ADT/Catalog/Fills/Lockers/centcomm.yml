@@ -55,6 +55,7 @@
         - id: ADTClothingNeckCloakSecondBlueshield
         - id: MedkitBurnFilled
           # - id: ADTCqcManualWeak
+        - id: ClothingOuterWinterBso # SD Tweak
 # Centcom Consultant
 - type: entity
   id: ADTLockerCCCFilledMOD
